@@ -64,7 +64,7 @@ A simple portscanner I developed as an exercise in using Berkeley sockets with C
 
 ## KNOWN ISSUES
 
-    ### SYN/FIN scan
+    SYN/FIN scan
     
         We successfully built our own custom TCP/IP headers which contained the required flags
         for these scans. The TCP header for the SYN scan contains a SYN flag and, similarly,
@@ -85,7 +85,7 @@ A simple portscanner I developed as an exercise in using Berkeley sockets with C
         In the last minutes we discovered that the FIN code is not running as it should. The sendto
         function fails for unknown reasons. 
 
-    ### UDP
+    UDP
 
         The UDP scan might not give correct results. There are two issues:
 
@@ -177,6 +177,6 @@ A simple portscanner I developed as an exercise in using Berkeley sockets with C
 
     Portscanner was designed and implemented by:
 
-        - Snorri Arinbjarnar          - snorria16
-        - Smári Freyr Guðmundsson     - smarig16
-        - Þórir Ármann Valdimarsson   - thorirv15
+        Snorri Arinbjarnar          - snorria16
+        Smári Freyr Guðmundsson     - smarig16
+        Þórir Ármann Valdimarsson   - thorirv15
